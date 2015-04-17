@@ -140,6 +140,7 @@ publish/
 # NuGet Packages
 *.nupkg
 # The packages folder can be ignored because of Package Restore
+**/lib/*
 **/packages/*
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
@@ -197,3 +198,41 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+
+
+# Created by https://www.gitignore.io
+
+### Emacs ###
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# elpa packages
+/elpa/
+
+# reftex files
+*.rel
+
+# AUCTeX auto folder
+/auto/
+
+# cask packages
+.cask/
