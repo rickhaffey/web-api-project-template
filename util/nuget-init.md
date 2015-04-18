@@ -12,3 +12,5 @@ install-package log4net WebApiProjectTemplate.Web.Common
 install-package nhibernate WebApiProjectTemplate.Web.Common
 install-package ninject WebApiProjectTemplate.Web.Common
 install-package ninject.web.common WebApiProjectTemplate.Web.Common
+
+install-package Microsoft.AspNet.WebApi WebApiProjectTemplate.Web.Common
