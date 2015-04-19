@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebApiProjectTemplate.Data.Entities
 {
-    public class User
+    public class User : IVersionedEntity
     {
         public virtual long UserId { get; set; }
         public virtual string Firstname { get; set; }
